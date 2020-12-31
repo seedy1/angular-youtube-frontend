@@ -1,0 +1,5 @@
+<form [formGroup]="searchForm">
+    <input type="text" formControlName="videoLink" placeholder="Enter youTube vidoe url" ng:required />
+    <button type="button" (click)="search()">Search Video</button>
+    <button type="button">Bookmark Video</button>
+</form>
